@@ -1,7 +1,15 @@
 ﻿@page "/bindProp"
+ 
 
 <h3>BindProp</h3>
+Name: @Product.Name<br />
+Active @Product.IsActive<br />
 
 @code {
-
+    TestBlazor2022_Models.LearnBlazorModels.Demo_Product Product = new()
+        {
+            Id = 1,
+            Name = "Sebastian",
+            IsActive = true
+        };
 }
