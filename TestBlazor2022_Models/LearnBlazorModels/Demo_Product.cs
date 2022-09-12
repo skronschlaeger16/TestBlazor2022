@@ -12,5 +12,7 @@ namespace TestBlazor2022_Models.LearnBlazorModels
         public string Name { get; set; }
 
         public bool IsActive { get; set; }
+
+        public double Price { get; set; }
     }
 }

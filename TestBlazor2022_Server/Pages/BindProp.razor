@@ -1,15 +1,21 @@
 ﻿@page "/bindProp"
  
 
-<h3>BindProp</h3>
+<h3>BindProp</h3> 
 Name: @Product.Name<br />
 Active @Product.IsActive<br />
-
+Price: @Product.Price<br />
+Price:<input type="number" @bind-value=@Product.Price @bind-value:event="oninput" /><br />
+Price 2: <input type="number" @bind=@Product.Price @bind:event="oninput" />
+Active <input type="checkbox" @bind-value="Product.IsActive" checked="@(Product.IsActive?"checked":null)" />
 @code {
+    // Two Way Data Binding
+    // https://docs.microsoft.com/en-us/aspnet/core/blazor/components/event-handling?view=aspnetcore-6.0
     TestBlazor2022_Models.LearnBlazorModels.Demo_Product Product = new()
         {
             Id = 1,
             Name = "Sebastian",
-            IsActive = true
+            IsActive = true,
+            Price = 10.99
         };
 }
