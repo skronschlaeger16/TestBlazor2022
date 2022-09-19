@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBlazor2022_Client", "TestBlazor_Client\TestBlazor2022_Client.csproj", "{431FBC7A-F49B-4C00-86EA-3FFC1912E8F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBlazor2022_Models", "TestBlazor2022_Models\TestBlazor2022_Models.csproj", "{8C259082-B592-4138-951E-918526416414}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBlazor2022_Models", "TestBlazor2022_Models\TestBlazor2022_Models.csproj", "{8C259082-B592-4138-951E-918526416414}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
